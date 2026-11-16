@@ -1,0 +1,50 @@
+{
+  "categories": [
+    { "id": "basics", "name": "穿搭基礎", "icon": "📐", "color": "#8a6f55" },
+    { "id": "campus", "name": "日常上課", "icon": "🎒", "color": "#5b7a5e" },
+    { "id": "formal", "name": "正式場合", "icon": "🎤", "color": "#3f5577" },
+    { "id": "travel", "name": "旅行出遊", "icon": "🧳", "color": "#a0543f" }
+  ],
+  "pages": [
+    {
+      "slug": "color-rules",
+      "title": "新手配色三原則",
+      "category": "basics",
+      "summary": "三色以內、70/25/5、同色系深淺，配色不再猶豫。",
+      "season": ["春", "夏", "秋", "冬"],
+      "palette": ["#3a3d42", "#ece6da", "#2c3a55", "#b08a5f"],
+      "tags": ["color", "basics"],
+      "updated": "2026-11-16"
+    },
+    {
+      "slug": "campus-knit-layering",
+      "title": "針織衫 × 襯衫領疊穿",
+      "category": "campus",
+      "summary": "秋冬上課最不費力，有整理感又舒服。",
+      "season": ["秋", "冬"],
+      "palette": ["#d9cbb3", "#2f3b52", "#6b4a33", "#f4f2ee"],
+      "tags": ["layering", "knit", "shirt"],
+      "updated": "2026-11-16"
+    },
+    {
+      "slug": "conference-smart-casual",
+      "title": "研討會發表的 Smart Casual",
+      "category": "formal",
+      "summary": "上台報告、口試都適用，專業但不僵硬。",
+      "season": ["春", "秋", "冬"],
+      "palette": ["#263247", "#4a4d52", "#cfdcea", "#1f1f21"],
+      "tags": ["blazer", "presentation", "smart-casual"],
+      "updated": "2026-11-16"
+    },
+    {
+      "slug": "kyoto-autumn-layers",
+      "title": "秋天京都的洋蔥式穿法",
+      "category": "travel",
+      "summary": "溫差大、走路多、常脫鞋，三層穿法一次解決。",
+      "season": ["春", "秋"],
+      "palette": ["#b59b76", "#2e3646", "#9a9a98", "#f3f1ec", "#7a2e3a"],
+      "tags": ["travel", "layering", "kyoto"],
+      "updated": "2026-11-16"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>衣櫥筆記</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧥</text></svg>">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-view="page">
+  <header class="topbar">
+    <a class="brand" href="./">
+      <span class="brand-name">衣櫥筆記</span>
+      <span class="brand-sub">Closet Notes</span>
+    </a>
+  </header>
+
+  <div class="container layout">
+    <article class="doc">
+      <nav id="crumbs" class="crumbs" aria-label="麵包屑"></nav>
+      <header id="doc-head" class="doc-head"></header>
+      <div id="doc-body" class="doc-body"><p class="loading">載入中…</p></div>
+      <nav id="pager" class="pager" aria-label="上一篇與下一篇"></nav>
+    </article>
+    <aside class="toc-wrap">
+      <div class="toc">
+        <p class="toc-title">本頁目錄</p>
+        <ol id="toc"></ol>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="footer">
+    <p>新增筆記的規則請見 <code>CLAUDE.md</code>　·　配色以色票呈現，不放商品與照片</p>
+  </footer>
+
+  <script src="assets/vendor/marked.umd.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>衣櫥筆記 Closet Notes</title>
+  <meta name="description" content="一頁一套的穿搭公式：場合、季節、單品清單與配色。">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧥</text></svg>">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-view="index">
+  <header class="topbar">
+    <a class="brand" href="./">
+      <span class="brand-name">衣櫥筆記</span>
+      <span class="brand-sub">Closet Notes</span>
+    </a>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <p class="eyebrow">No.01 — 今天穿什麼？</p>
+      <h1>用自己的衣櫃，<br>整理出不用想的穿搭公式。</h1>
+      <p class="hero-lead">依場合和季節分類，每一頁都有單品清單、配色色票和搭配重點。</p>
+
+      <label class="search">
+        <input id="search" type="search" placeholder="搜尋：針織、報告、旅行…" autocomplete="off">
+      </label>
+
+      <div class="filters">
+        <div class="filter-row">
+          <span class="filter-label">場合</span>
+          <div id="chips" class="chips" role="toolbar" aria-label="場合篩選"></div>
+        </div>
+        <div class="filter-row">
+          <span class="filter-label">季節</span>
+          <div id="seasons" class="chips" role="toolbar" aria-label="季節篩選"></div>
+        </div>
+      </div>
+    </section>
+
+    <p id="count" class="count"></p>
+    <section id="cards" class="cards" aria-live="polite"></section>
+  </main>
+
+  <footer class="footer">
+    <p>新增筆記的規則請見 <code>CLAUDE.md</code>　·　配色以色票呈現，不放商品與照片</p>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
